@@ -14,7 +14,7 @@
 -   Clone the repository
 -   Access the project directory
 -   Rename `.env.example` file to `.env`
--   Start Docker and run `docker-compose up`
+-   Start Docker and run `docker-compose up --build`
 
 When starting the containers, the database will be created and the migrations will be executed, as well as the seeds to populate the database will be executed.
 
